@@ -25,6 +25,7 @@ namespace gs
             lines.Add(l);
         }
 
+        public int AllLinesCount() { return lines.Count; }
 
         public IEnumerable<GCodeLine> AllLines()
         {
